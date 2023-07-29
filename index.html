@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page with HTML & CSS</title>
+
+    <!-- Fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <label for="name" id="logo-text">
+            <a href="">NOVACODE</a>
+        </label>
+        <input type="checkbox" id="check">
+        <label for="check" class="toggle">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </label>
+
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <div id="account-container">
+            <a href="#">Create Account</a>
+        </div>
+    </nav>
+
+
+    <header>
+        <div id="header-container">
+            <div id="header-page-title">
+                <h1>Creative Landing Page</h1>
+                <p>
+                    Lorem ipsum dolor,<br /> sit amet consectetur adipisicing elit.
+                </p>
+                <div id="header-subscribe-form">
+                    <input type="email" name="" id="" placeholder="Enter your email">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </div>
+            <div id="header-page-image">
+                <img src="assets/images/hero.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="awesome-feature">
+        <div id="feature-text">
+            <h1>Awesome Features</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Inventore velit quisquam reprehenderit,
+                cum voluptates nam iusto illo numquam,<br> error a quaerat beatae libero dolorem blanditiis culpa rerum
+                ullam, at sunt?
+            </p>
+        </div>
+    </section>
+
+
+    <section id="creativity-features">
+        <div id="creativity-features-image">
+            <img src="assets/images/feature.png" alt="">
+        </div>
+
+        <div id="creativity-features-text">
+            <h1>Creative Features</h1>
+            <h3>
+                Build Comunity & conversion <br> with our suite of social tool
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quidem perspiciatis placeat officia
+                modi. Error reiciendis praesentium, iure rem laborum provident quaerat excepturi doloremque
+                reprehenderit ullam earum unde sed quae!
+            </p>
+
+            <div class="creative-footer-text">
+                <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.</p>
+            </div>
+            <div id="creativity-btn">
+                <a href="#">Read More</a>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="plan-container">
+        <div class="plan-item">
+            <div class="plan-money">
+                <i class="fa-solid fa-user"></i>
+                <h2>Simple</h2>
+                <h1><span>$</span>19</h1>
+                <p>user / month</p>
+            </div>
+
+            <div class="plan-benifit">
+                <p>Bandwith: 1GB</p>
+                <p>Space: 512MB</p>
+                <p>Support: <strong>Yes</strong></p>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="plan-item">
+            <div class="plan-money">
+                <i class="fa-solid fa-user"></i>
+                <h2>Basic</h2>
+                <h1><span>$</span>49</h1>
+                <p>user / month</p>
+            </div>
+
+            <div class="plan-benifit">
+                <p>Bandwith: 10GB</p>
+                <p>Space: 512MB</p>
+                <p>Support: <strong>Yes</strong></p>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="plan-item">
+            <div class="plan-money">
+                <i class="fa-solid fa-user"></i>
+                <h2>Pro</h2>
+                <h1><span>$</span>89</h1>
+                <p>user / month</p>
+            </div>
+
+            <div class="plan-benifit">
+                <p>Bandwith: 100GB</p>
+                <p>Space: 8GB</p>
+                <p>Support: <strong>Yes</strong></p>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="awesome-feature">
+        <div id="feature-text">
+            <h1>Contact Us</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quisquam mollitia quaerat sint
+                blanditiis asperiores, magni nam.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <div>
+            <div id="contact-form-item">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="Your Name"><br>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Your Email"><br>
+                </div>
+            </div>
+
+            <label for="message">Message</label><br>
+            <textarea name="" id="" placeholder="Details your message"></textarea>
+
+            <span id="send-message-btn">
+                <input type="submit" value="Submit">
+                <i class="fa-solid fa-rocket"></i>
+            </span>
+        </div>
+
+        <div>
+
+            <div class="contact-info">
+                <i class="fa-solid fa-envelope"></i> &#58;
+                <p>support@nova.com</p>
+            </div>
+
+            <div class="contact-info">
+                <i class="fa-solid fa-link"></i> &#58;
+                <p>www.nova.com</p>
+            </div>
+
+            <div class="contact-info">
+                <i class="fa-solid fa-phone"></i> &#58;
+                <p>(+888) 0125845652</p>
+            </div>
+
+            <div class="contact-info">
+                <i class="fa-solid fa-clock"></i> &#58;
+                <p>9.00 AM - 5.00 PM</p>
+            </div>
+
+            <div class="contact-info">
+                <i class="fa-solid fa-magnifying-glass-location"></i> &#58;
+                <p>1644 Deer Ridge Drive Rochelle Park, NJ 07662</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div id="footer-name">
+            <h2>NOVACODE</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, molestiae! Ullam natus, excepturi unde,</p>
+
+            <div id="footer-social-icon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+
+        <div class="footer-link">
+            <h4>ABOUT US</h4>
+            <div>
+                <a href="#">Works</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Release</a>
+                <a href="#">Press</a>
+                <a href="#">mission</a>
+            </div>
+        </div>
+
+        <div class="footer-link">
+            <h4>CUSTOMER</h4>
+            <div>
+                <a href="#">Tranding</a>
+                <a href="#">Popular</a>
+                <a href="#">Customers</a>
+                <a href="#">Features</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+
+        <div class="footer-link">
+            <h4>SUPPORT</h4>
+            <div>
+                <a href="#">Developer</a>
+                <a href="#">Support</a>
+                <a href="#">Service</a>
+                <a href="#">Started</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
