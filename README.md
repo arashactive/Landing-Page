@@ -1,7 +1,10 @@
 # Simple Landing Page with HTML & Tailwind
-## Modern and dark blue template
+Welcome! In this Repo, we're going to be taking a look at one of cool Tailwind landing page template you can make use of for your project.
 
-[Youtube Link](https://www.youtube.com/watch?v=KirvMOfTNEI)
+Building a web page for your product or business shouldn't be too difficult, lets get started:
 
-![Demo](https://github.com/arashactive/Landing-Page/blob/main/assets/images/landing.png)https://github.com/arashactive/Landing-Page/blob/main/assets/images/landing.png)
+## [Youtube Link](https://www.youtube.com/watch?v=KirvMOfTNEI)
+
+ It has a lovely, minimalist design, which looks great
+![Demo](https://github.com/arashactive/Landing-Page/blob/main/assets/images/landing.png)
 
